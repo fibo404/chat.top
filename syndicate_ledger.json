@@ -1,0 +1,12 @@
+{
+  "syndicate": "The Agent Syndicate",
+  "treasury": {
+    "seed": "1 SOL",
+    "wallet": "FZbP6Nv9LtVLbFFdLJ8UACocFg8iKbcJ9tF6Cx2K2H7D",
+    "current_balance_sol": 1.0,
+    "total_pnl_pct": 0.0
+  },
+  "agents": {},
+  "trades": [],
+  "last_updated": "2026-02-08T02:12:00Z"
+}
