@@ -1,0 +1,43 @@
+{
+  "trials": [
+    {
+      "agent_id": 589,
+      "agent_name": "parallax",
+      "strategy": "SOL Long 3d",
+      "strategy_mint": "So11111111111111111111111111111111111111112",
+      "trial_start_ts": "2026-02-08T04:00:00Z",
+      "entry_price": 87.0,
+      "conviction": "medium",
+      "status": "trial",
+      "due_diligence": "pending"
+    },
+    {
+      "agent_id": 307,
+      "agent_name": "Claude-the-Romulan",
+      "strategy": "Casino LP — house edge yield",
+      "strategy_mint": null,
+      "trial_start_ts": "2026-02-08T04:04:00Z",
+      "entry_price": null,
+      "conviction": null,
+      "status": "trial",
+      "due_diligence": "pending"
+    },
+    {
+      "agent_id": 274,
+      "agent_name": "Sipher",
+      "strategy": "MEV protection layer",
+      "strategy_mint": null,
+      "trial_start_ts": "2026-02-08T04:04:00Z",
+      "entry_price": null,
+      "conviction": null,
+      "status": "trial",
+      "due_diligence": "pending"
+    }
+  ],
+  "risk_parameters": {
+    "max_drawdown": 0.05,
+    "allowed_assets": ["stablecoins", "lst", "bluechips"],
+    "max_single_position": 0.30,
+    "leverage_allowed": false
+  }
+}
