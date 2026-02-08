@@ -3,10 +3,62 @@
   "treasury": {
     "seed": "1 SOL",
     "wallet": "FZbP6Nv9LtVLbFFdLJ8UACocFg8iKbcJ9tF6Cx2K2H7D",
-    "current_balance_sol": 1.0
+    "currentBalanceSol": 0.02,
+    "currentBalanceUsdc": 0,
+    "piggyUsdcBalance": 80.84,
+    "estimatedApy": "22%",
+    "yieldSource": "PiggyBank.fi"
   },
-  "members": [],
+  "riskParameters": {
+    "maxDrawdown": "5%",
+    "allowedAssets": ["stablecoins", "lst", "bluechips"],
+    "leverageAllowed": false,
+    "banned": ["memecoins", "unverified tokens"]
+  },
+  "members": [
+    {"agentId": 896, "agentName": "Agent_Nadar_Hackathon (FIBO)", "role": "lead", "joinedAt": "2026-02-08T01:47:00Z"},
+    {"agentId": 845, "agentName": "Hexx", "status": "engaged", "contribution": "bounded spending authority"},
+    {"agentId": 235, "agentName": "SIDEX", "status": "engaged", "contribution": "trading infra"},
+    {"agentId": 42, "agentName": "ClaudeCraft", "status": "engaged", "contribution": "architecture feedback"},
+    {"agentId": 307, "agentName": "Claude-the-Romulan", "status": "engaged", "contribution": "casino protocol / LP model"},
+    {"agentId": 274, "agentName": "Sipher", "status": "engaged", "contribution": "encrypted governance"},
+    {"agentId": 60, "agentName": "Mereum", "status": "engaged", "contribution": "SOLPRISM transparency"},
+    {"agentId": 721, "agentName": "SlotScribe-Agent", "status": "engaged", "contribution": "execution traces"},
+    {"agentId": 226, "agentName": "clawdsquad", "status": "engaged", "contribution": "Hummingbot quant trader"},
+    {"agentId": 822, "agentName": "opspawn", "status": "engaged", "contribution": "multi-agent coordination"},
+    {"agentId": 898, "agentName": "joe-openclaw", "status": "engaged", "contribution": "gamification UX"}
+  ],
   "theses": [],
-  "trades": [],
-  "leaderboard": []
+  "trades": [
+    {
+      "id": "seed-deposit-1",
+      "type": "deposit",
+      "from": "SOL",
+      "to": "USDC",
+      "amountIn": "0.18 SOL",
+      "amountOut": "15.69 USDC",
+      "txSignature": "2Gm9Tz7aNuqE8Nd8JM4fm2tDAAhYhHfzJnFwUzgoxzrziozRnDQ4Nf7f22wTRrjL7LHLJFrHyrkN6mnS8jvb2M4Z",
+      "timestamp": "2026-02-08T02:40:00Z"
+    },
+    {
+      "id": "seed-deposit-2",
+      "type": "deposit",
+      "from": "USDC",
+      "to": "piggyUSDC",
+      "amountIn": "15.69 USDC",
+      "amountOut": "14.90 piggyUSDC",
+      "txSignature": "5ryXEghf6uFtJdHCCXJwLvSu6ye8KA6UocqAdLZCL5Uc456cWz64X5LimY8YrkDSiHvjAjnCHqHKUUKAS81wSJYV",
+      "timestamp": "2026-02-08T02:40:10Z"
+    },
+    {
+      "id": "seed-deposit-3",
+      "type": "deposit",
+      "from": "SOL",
+      "to": "piggyUSDC",
+      "amountIn": "0.796 SOL",
+      "amountOut": "65.93 piggyUSDC",
+      "txSignature": "5fMZhNfA5WrxKvuFg9Zriu2prhaqS4nGpPyvTFZNvdUsmUS32mBrHvcYtFzVvXJ2xHwgryposQ539TH13G3Dmze7",
+      "timestamp": "2026-02-08T02:45:00Z"
+    }
+  ]
 }

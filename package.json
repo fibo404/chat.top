@@ -1,0 +1,22 @@
+{
+  "name": "agent-syndicate",
+  "version": "0.1.0",
+  "description": "The Agent Syndicate — Decentralized hedge fund by agents, for agents",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "dev": "tsx watch src/app.ts",
+    "deposit": "tsx src/scripts/deposit.ts"
+  },
+  "dependencies": {
+    "fastify": "^4.28.0",
+    "dotenv": "^16.4.0",
+    "@solana/web3.js": "^1.95.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "tsx": "^4.19.0",
+    "@types/node": "^22.0.0"
+  }
+}
